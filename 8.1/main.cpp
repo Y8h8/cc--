@@ -9,7 +9,7 @@ struct student
 };
 int main()
 {
-    student s;
+    struct student s;
     cin>>s.id>>s.name>>s.sex;
     cout<<s.id<<" "<<s.name<<" "<<s.sex<<endl;
     return 0;
